@@ -1,0 +1,14 @@
+.uniHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: lightblue;
+}
+
+.uniHeader .headerLogo {
+    height: 40px;
+    width: 40px;
+}
