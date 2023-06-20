@@ -1,0 +1,7 @@
+- State
+    - something dynamic
+- Props
+- Component
+- Link / Routes
+- Data source (API or a data file)
+- Iteration where things populate
