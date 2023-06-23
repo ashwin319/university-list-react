@@ -1,0 +1,9 @@
+{
+    "hello": "Hola, mundo",
+    "uniSearch": {
+        "search": {
+            "label": "Encontrar",
+            "placeholder": "Encuentra tu universidad aqui"
+        }
+    }
+}
