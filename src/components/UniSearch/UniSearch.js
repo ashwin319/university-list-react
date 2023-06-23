@@ -10,7 +10,7 @@ function UniSearch({ search, updateSearch }) {
     }
 
     useEffect(() => {
-        i18n.changeLanguage('es')
+        i18n.changeLanguage('en')
     }, [])
 
     const changeLanguage = (evt) => {
