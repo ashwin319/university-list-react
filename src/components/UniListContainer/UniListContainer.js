@@ -15,8 +15,7 @@ function UniListContainer({ updateUniDetails, country, search, updateSearch }) {
 
     useEffect(() => {
         console.log('Country fetched: ', country)
-        const secretKey = process.env.UNI_LIST_SECRET_KEY;
-        axios.get(`https://universities.hipolabs.com/search?country=${country}&secret_key=${secretKey}`)
+        axios.get(`https://universities.hipolabs.com/search?country=${country}`)
             .then((response) => {
                 const allUnis = response.data.splice(0, 100)
                 setUniList(allUnis)
