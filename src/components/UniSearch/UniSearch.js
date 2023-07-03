@@ -11,7 +11,7 @@ function UniSearch({ search, updateSearch }) {
 
     useEffect(() => {
         i18n.changeLanguage('en')
-    }, [])
+    }, [i18n])
 
     const changeLanguage = (evt) => {
         const language = evt.target.value;

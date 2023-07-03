@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 function CountryDropdown({ country, updateCountry }) {
 
     const handleSelectionChange = (event) => {

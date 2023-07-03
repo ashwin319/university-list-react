@@ -22,12 +22,12 @@ function UniListContainer({ updateUniDetails, country, search, updateSearch }) {
                 setFilteredList(allUnis)
                 updateSearch('')
             })
-    }, [country])
+    }, [country, updateSearch])
 
     useEffect(() => {
         const filteredUniList = uniList.filter((uni) => uni.name.includes(search))
         setFilteredList(filteredUniList)
-    }, [search])
+    }, [search, uniList])
 
     return (
         <div className="container">

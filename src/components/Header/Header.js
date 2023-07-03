@@ -6,7 +6,7 @@ function Header() {
 
     return (
         <header className="uniHeader">
-            <span><img className="headerLogo" src={logoUrl} /></span>
+            <span><img className="headerLogo" src={logoUrl} alt="logo" /></span>
             <span>University List</span>
         </header>
     )
